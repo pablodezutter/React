@@ -36,3 +36,7 @@
 
 * state: import React, {useState}
     create const [name,setRed] because the statement is false
+state changes html
+can change classes
+if else statement ? :
+make it change setRed(!isRed)
