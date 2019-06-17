@@ -40,3 +40,5 @@ state changes html
 can change classes
 if else statement ? :
 make it change setRed(!isRed)
+* create user
+! damn doesn't work anymore

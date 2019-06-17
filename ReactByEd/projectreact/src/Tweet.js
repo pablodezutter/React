@@ -1,17 +1,7 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './App.css';
 
 function Tweet(props){
-
-    const [isRed, setRed ] = useState(false);
-    const [count, setCount]= useState(0);
-
-const increment = () =>{
-setCount(count + 1);
-//setRed(true);
-setRed(!isRed)
-}
-
 
     return(
         <div className='tweet'>
