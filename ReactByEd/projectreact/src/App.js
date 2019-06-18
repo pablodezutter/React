@@ -5,20 +5,16 @@ function App(){
 
 const [users, setUsers] = useState ([
 
-{name: "John Snow", message:"coucoo"},
-{name: "Fred", message: "I am awesome"},
-{name: "Dirk", message: "It's my birthday"}
+{name: "John Snow", message:"coucoo", likes:"3OOK"},
+{name: "Fred", message: "I am awesome", likes: "20K"},
+{name: "Dirk", message: "It's my birthday", likes: "460K"}
 
-]
-
-
-
-);
+]);
 
 return(
   <div className='app'>
     {users.map(user =>(
-        <Tweet name={user.name} message={user.message} />
+        <Tweet name={user.name} message={user.message} likes={user.likes} />
 
      ) )}
   </div>
