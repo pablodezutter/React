@@ -38,3 +38,6 @@ Kirupa Chinnathambi, dev ED and TiffInTech)
   (before render)
 - addItem (e) = for event arguments
   (do we need constructor and super?)
+- creating function
+
+  - create item with unique id
