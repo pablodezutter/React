@@ -27,9 +27,14 @@ at Array.filter (<anonymous>)
 - Don't know where to start, app.js?
 
 ##Creating ToDoApp 19th of June
+(reading info on React & watching youtube, thanks to
+Kirupa Chinnathambi, dev ED and TiffInTech)
 
 - Index.js -> App.js -> TodoList.js
 - Remove files (not needed)
 - import bootstrap npm + index.html link
 - always import components!
--
+- we need the events to work so: constructor!
+  (before render)
+- addItem (e) = for event arguments
+  (do we need constructor and super?)
