@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  height: 100px;
+  background-color: orangered;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.footer {
+  background-image: linear-gradient(
+    to bottom,
+    #e9ebee,
+    #abafb0,
+    #737675,
+    #404140,
+    #121211
+  );
+}
+
+/* .h1 {
+  color: darkslategrey;
+} */
+
+.ToDoItem {
+  background-color: wheat;
+  display: flex;
+  width: 70%;
+  font-weight: 100;
+  align-items: center;
+  padding: 30px 20px O;
+}
+
+.checkBox {
+  margin-right: 10px;
+  border: red 2px solid;
+  margin: 20px;
+}
